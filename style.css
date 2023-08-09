@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 10rem;
+    padding: 0px 100px;
+    position: absolute; 
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-family: sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+    align-items: center;
+}
+nav ul{
+    float: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+    align-items: center;
+    max-height: 100px;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+}
+.content-items{
+    position: relative;
+    display: flex;
+
+}
+.content-items img{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+.overlay{
+    position: absolute;
+    width: 450px;
+    height: 180px;
+    color: white;
+    background: rgba(255, 0, 0, .38);
+    text-align: justify;
+    padding: 30px 30px 50px;
+    box-sizing: border-box;
+    margin-top: 170px;
+    margin-left: 65px;
+}
+.items{
+    background-image: linear-gradient(to right,#FC46AA,#fff000);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+    margin: 0px 0;
+    text-align: center;
+}
+h1{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 700px;
+    text-overflow: ellipsis;
+    display:inline;
+}
+.content{
+    width: 180px;
+    height: 275px;
+    margin: 120px;
+    word-spacing: 5px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 0 20px 0 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    background: white;
+    box-shadow:  0 10px 25px rgba(0,0,0,.2),0 10px 10px rgba(0,0,0,.22);
+}
+img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 0 20px 0 0;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding-top: 10px;
+
+}
+.button{
+    border: 5px;
+    color: black;
+    padding: 10px 40px;
+    text-align: bottom;
+    text-decoration:solid;
+    display: inline-block;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0.4;
+    margin: 0 700px 100px;
+    display: inline-block;
+
+}
